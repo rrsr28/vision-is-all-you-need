@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "eyes": {
+      "command": "python.exe",
+      "args": ["path/to/your/camera_mcp_server.py"],
+      "env": {
+        "PYTHONUNBUFFERED": "1",
+        "OPENCV_LOG_LEVEL": "ERROR"
+      }
+    }
+  }
+}
